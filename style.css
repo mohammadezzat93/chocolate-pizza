@@ -1,2 +1,106 @@
-#right{ float : right;
+.first{
+     float : left;
+     vertical-align: middle;
+}
+
+.second{
+    float: right;
+}
+.second2{
+    float: right;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 5px ;
+}
+#pp{
+    color: rgb(104, 100, 100);
+    margin-top: -20px;
+}
+.img1{
+    width: 1500px;
+}
+
+p{
+    color: rgb(104, 100, 100);
+}
+.in1{
+    position: relative;
+}
+.num1{
+    /* position: absolute; */
+    z-index: -1;
+}
+.num2{
+    z-index: -1;
+    /* position: absolute; */
+}
+
+hr{
+    border: dashed;
+}
+/* =============================================================================================== */
+                    /* The section */
+
+/* <!-- we used some commends from w3school --> */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+      margin-left: 300px;
+    position: absolute;
+    bottom: 200px;
+    left: 16px;
+    color: rgb(116, 111, 111);
+    font-size: 30px;
+  }
+  
+  /* Centered text */
+  .centered {
+    margin-left: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(116, 111, 111);
+    font-size: 30px;
+
+  }
+/* =============================================================================================== */
+  li{
+      list-style-type: square;
+      font-family: 'Courier New', Courier, monospace;
+  }
+
+  footer{
+      text-align: center;
+
+    }
+
+    button{
+        background-color: brown;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+    border-style: none;
+    /* margin-right: 60px; */
+    }
+
+    .firstt{
+        /* width: 75%; */
+        float : left;
+        vertical-align: middle;
+   }
+
+   .secondd{
+       /* width: 25%; */
+    float: right;
+}
+
+.spn{
+    color: rgb(152, 161, 161);
 }
